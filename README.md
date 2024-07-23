@@ -8,9 +8,5 @@ Para un caso practico, se tiene ya definido la una funcion de onda cuadrada.
 ```python
 funcion = sp.Piecewise((1, (t >= 0) & (t < np.pi)), (-1, (t >= np.pi) & (t < 2 * np.pi)))
 ```
-```latex
-\begin{cases}
-1 & \text{si } 0 < t < \pi \\
--1 & \text{si } \pi < t < 2\pi
-\end{cases}
-```latex
+
+$$\begin{cases} 1 & \text{si } 0 \leq t \leq \pi \\ -1 & \text{si } \pi \leq t \leq 2\pi \end{cases}$$
