@@ -1,6 +1,7 @@
 # Fourier-series-plotter
 
-Proyecto Graficador de Series de Fourier - Matemáticas Superiores Para Ingenieros - 2022 <br>
+Proyecto Graficador de Series de Fourier - Matemáticas Superiores Para Ingenieros - 2022
+
 En este proyecto se puede introducir la funcion y el periodo con el que se desea trabajar.
 
 Para un caso practico, se tiene ya definido una funcion de Onda Cuadrada.
