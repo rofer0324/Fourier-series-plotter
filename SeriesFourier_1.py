@@ -60,7 +60,7 @@ periodo_min = 0
 periodo_max = 2 * np.pi
 
 #--- Funcion a evaluar ---#
-funcion = funcion = sp.Piecewise((1, (t >= 0) & (t < np.pi)), (-1, (t >= np.pi) & (t < 2 * np.pi)))
+funcion = sp.Piecewise((1, (t >= 0) & (t < np.pi)), (-1, (t >= np.pi) & (t < 2 * np.pi)))
 
 k = 30  #Iteraciones para la aproximacion de la serie de fourier
 
